@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+<head>
+    <title>Form</title>
+    <style>
+        * {
+            font-family: Arial;
+        }
+        h2 {
+            font-size: 18px;
+            color: greenyellow;
+        }
+        input, select, textarea {
+            margin-bottom: 10px;
+        }
+        .hijau {
+            color: green;
+        }
+        .kotak {
+            border: 5px dashed green;
+        }
+    </style>
+</head>
+<body>
+<h2 class="hijau kotak">Belajar Form</h2>
+<form action="#" method="post">
+    <label>NIM :</label>
+    <input type="text" name="txtnim" placeholder="Masukkan Nim Anda"> <br>
+
+    <label class="hijau">Jenis Kelamin : </label>
+    <input type="radio" name="rbjk" value="L"> Laki - Laki
+    <input type="radio" name="rbjk" value="P"> Perempuan <br>
+
+    <label for="jr">Jurusan</label>
+    <select name="jurusan" id="jr">
+        <option value="ilkom">Ilkom</option>
+        <option value="rpl">RPL</option>
+        <option value="si">SI</option>
+    </select> <br>
+
+    <label for="cttn">Catatan</label>
+    <textarea name="txtcatatan" id="cttn" cols="50" rows="2"></textarea> <br>
+
+    <label for="">Email</label>
+    <input type="email" name="email"> <br>
+
+    <label for="">Harga</label>
+    <input type="number" name="harga"> <br>
+
+    <label for="">tanggal</label>
+    <input type="date" name="tanggal"> <br>
+
+    <input type="submit" name="submit" value="Simpan Data">
+    <input type="reset" name="reset" value="Batal">
+</form>
+<h2>Belajar Form</h2>
+<p class="hijau">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta earum ipsam laboriosam odit tempore. Blanditiis cupiditate dolorem doloribus ducimus eveniet, facilis illo in iusto nisi odit possimus provident suscipit voluptas.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias animi asperiores beatae blanditiis, consectetur dolor est exercitationem nihil numquam odio officiis optio placeat, porro provident quo recusandae ut veniam voluptatibus.</p>
+</body>
+</html>
