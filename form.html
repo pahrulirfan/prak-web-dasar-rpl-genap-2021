@@ -2,20 +2,25 @@
 <html>
 <head>
     <title>Form</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
     <style>
         * {
             font-family: Arial;
         }
+
         h2 {
             font-size: 18px;
             color: greenyellow;
         }
+
         input, select, textarea {
             margin-bottom: 10px;
         }
+
         .hijau {
             color: green;
         }
+
         .kotak {
             border: 5px dashed green;
         }
@@ -44,17 +49,25 @@
     <label for="">Email</label>
     <input type="email" name="email"> <br>
 
-    <label for="">Harga</label>
-    <input type="number" name="harga"> <br>
+    <div class="form-group">
+        <label for="">Harga</label>
+        <input class="form-control" type="number" name="harga"> <br>
+    </div>
 
-    <label for="">tanggal</label>
-    <input type="date" name="tanggal"> <br>
+    <div class="form-group">
+        <label for="">tanggal</label>
+        <input class="form-control" type="date" name="tanggal"> <br>
+    </div>
 
-    <input type="submit" name="submit" value="Simpan Data">
-    <input type="reset" name="reset" value="Batal">
+    <input class="btn btn-primary" type="submit" name="submit" value="Simpan Data">
+    <input class="btn btn-danger" type="reset" name="reset" value="Batal">
 </form>
 <h2>Belajar Form</h2>
-<p class="hijau">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta earum ipsam laboriosam odit tempore. Blanditiis cupiditate dolorem doloribus ducimus eveniet, facilis illo in iusto nisi odit possimus provident suscipit voluptas.</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias animi asperiores beatae blanditiis, consectetur dolor est exercitationem nihil numquam odio officiis optio placeat, porro provident quo recusandae ut veniam voluptatibus.</p>
+<p class="hijau">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta earum ipsam laboriosam odit tempore.
+    Blanditiis cupiditate dolorem doloribus ducimus eveniet, facilis illo in iusto nisi odit possimus provident suscipit
+    voluptas.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias animi asperiores beatae blanditiis, consectetur dolor
+    est exercitationem nihil numquam odio officiis optio placeat, porro provident quo recusandae ut veniam
+    voluptatibus.</p>
 </body>
 </html>
